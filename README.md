@@ -139,3 +139,27 @@ nn.train(train_X, train_Y)
 nn.save_model(path='dataset/iris')
 print(nn.evaluate(train_X, train_Y))
 ```
+
+## Some important functions of DNN class
+
+* add(num_of_node, activation='sigmoid')
+	> It will add layers in the neural network
+* summary()
+	> Give a summary of the neural network, like: layers, no of nodes, activation function used.
+* compile(loss='absolute_error', batch_size=32, optimizer='sgd', epochs=1000,
+	display_step=100, lr=0.01, validation_split=0.0, metrics=None)
+	> It helps in providing the required information to the neural network
+* save_weights(path=None)
+	> Save the weights of the neural network
+* load_weights(self, path=None)
+	> Load the saved weights
+* save_model(path=None)
+	> Save the entire neural network model
+* load_model(path=None)
+	> Load the entire neural network model
+* predict(X)
+	> Get the result of input datset from the neural network
+* train(X, Y)
+	> Train the neural network on the datat provided.
+* evaluate(X, Y)
+	> It returns the accuracy of a dataset.
