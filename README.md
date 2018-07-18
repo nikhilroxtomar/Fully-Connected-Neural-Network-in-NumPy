@@ -1,7 +1,7 @@
 # Feedforward Neural Network
 
 It is a simple Feedforward Neural Network that is build from scratch using Numpy and Python3. I developed this project as a self interest
-to learn the working of a neural network, to understand the backend this of a neural network.
+to learn the working of a neural network, to understand the backend of a neural network.
 
 ## Getting Started
 
