@@ -8,7 +8,7 @@ def sgd(delta, result, lr):
 
         param: delta -
         param: result - the prediction from the neural network
-                [(Icput), ((Hidden1), (Hidden2), ..., (Output))]
+                [(Input), ((Hidden1), (Hidden2), ..., (Output))]
     """
 
     numD = len(delta)
