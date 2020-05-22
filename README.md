@@ -1,7 +1,6 @@
-# Feedforward Neural Network
+# Fully Connected Neural Network in NumPy
 
-It is a simple Feedforward Neural Network that is build from scratch using Numpy and Python3. I developed this project as a self interest
-to learn the working of a neural network, to understand the backend of a neural network.
+It is a simple fully connected neural network that is build from scratch using NumPy and Python3. I developed this project as a self interest to learn the working of a neural network, to understand the backend of a neural network.
 
 ## Getting Started
 
